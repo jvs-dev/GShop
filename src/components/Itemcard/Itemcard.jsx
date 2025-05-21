@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Article = styled.article`
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 220px;
 `
 const Div = styled.div`
     position: relative;
@@ -17,6 +19,7 @@ const Div = styled.div`
 const Img = styled.img`
     border-radius: 10px;
     width: 100%;
+    background: #fff;
 `
 const Div2 = styled.div`
     display: flex;
@@ -32,6 +35,11 @@ const Name = styled.p`
     margin: 0px;
     margin-top: 24px;
     line-height: 110%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #1e1e1e;
+    text-align: left;
 `
 
 const Price = styled.p`
@@ -59,8 +67,13 @@ const Addcart = styled.button`
 `
 
 const Itemcard = (props) => {
+    const handleClick = () => {
+        localStorage.setItem('itemAcessed', props.categorie);
+        window.location.href = `/item?id=${props.id}`;        
+    }
+
     return (
-        <Article>
+        <Article onClick={handleClick}>
             <Div>
                 <Img src={props.image} />
                 <Addcart><ion-icon name="add-outline"></ion-icon></Addcart>

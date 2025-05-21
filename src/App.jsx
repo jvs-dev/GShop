@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route, createBrowserRouter } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Itemview from './pages/Itemview/Itemview';
+import AddItem from './pages/addItem/addItem';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/item' element={<Itemview />} />
+        <Route path='/create' element={<AddItem />} />        
       </Routes>
     </BrowserRouter>
   )

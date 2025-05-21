@@ -1,0 +1,64 @@
+.adminMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    max-width: 40vw;
+    width: 240px;
+    background: #474747;
+    z-index: 4;
+    padding: 20px;
+}
+
+.adminMenu__title {
+    font-size: 26px;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.adminMenu__Btn {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+    outline-width: 0px;
+    border: 0px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 4px 20px 4px 0px;
+    text-transform: uppercase;
+
+}
+
+.adminMenu__Btn i {
+    color: #fff;
+    margin: 0px 12px 0px 0px;
+    font-size: 20px;
+}
+
+.adminMenu__Btn.active {
+    background: #fff;
+    color: #FD9327;
+
+}
+
+.adminMenu__Btn.active i{
+    color: #FD9327;
+    margin-left: 20px;
+}

@@ -1,0 +1,222 @@
+.addItemForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    width: calc(100% - 240px);
+    min-width: 60vw;
+    align-self: right;
+    justify-self: end;
+    background: #fff;
+}
+
+.addItemForm__container--2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addItemForm__container--3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.addItemForm__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    max-width: 60vw;
+    overflow: hidden;
+}
+
+.addItemForm__container--inputLink {
+    position: absolute;
+    bottom: 0;
+    background: #ffffffbb;
+    border: 0px;
+    outline-width: 0px;
+    border-radius: 12px;
+    border: 2px solid #8b8b8b;
+    padding: 2px 10px;
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+}
+
+.addItemForm__container--labelimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.addItemForm__container--img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.addItemForm__container--2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60vw;
+    overflow: hidden;
+}
+
+.addItemForm__container--p {
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin: 0px;
+}
+
+.addItemForm__container--label {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.addItemForm__container--inputText {
+    background: #eee;
+    border: 0px;
+    outline-width: 0px;
+    border-radius: 4px;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5rem 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.addItemForm__container--3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.addItemForm__addPicks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    background: transparent;
+    color: #FD9327;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 2px 10px;
+    border: 0px;
+    outline-width: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.addItemForm__addPicks i {
+    font-size: 24px;
+}
+
+
+.addItemForm__addPicks:hover {
+    background: #FD9327;
+    color: #fff;
+}
+
+.addItemForm__container--4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 5px 0px;
+}
+
+.addItemForm__container--5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.addItemForm__container--inputOption {
+    background: #eee;
+    border: 0px;
+    outline-width: 0px;
+    border-radius: 4px;    
+    padding: 0.5rem 10px;    
+    font-size: 16px;
+    width: auto;
+    box-shadow: 1px 2px 5px #0000004f;
+}
+
+.addItemForm__container--inputName {
+    background: transparent;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    text-align: left;
+    margin: 0px;
+    border: 0px;
+    outline-width: 0px;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.addItemForm__addItemBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    background: #FD9327;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 4px 32px;
+    border: 0px;
+    outline-width: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
